@@ -1,8 +1,13 @@
 import React from 'react'
+import TheWeather  from '../projects/TheWeather';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>Home
+
+    <TheWeather />
+
+    </div>
   )
 }
 

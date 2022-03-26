@@ -6,6 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+.App-img {
+  size: 0.5rem;
+
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +40,4 @@
     transform: rotate(360deg);
   }
 }
+
