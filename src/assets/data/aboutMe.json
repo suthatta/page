@@ -1,0 +1,19 @@
+[ {"Person":{
+    "Name":"Suthatta Lindstrii",
+    "Title":"Software Tester",
+    "E-mail":"psuthatta@gmail.com",
+    "Linkedin":"linkedin.com/in/suthattalindstrii",
+    "Github":"https://github.com/suthatta",
+    "portfolio":"About my portfolio: Frontend I wrote with React, javascript and Vannila css. In the Backend I took Node js and Json data. ",
+    "AboutMe":" I am a dedicated positive person with a creative and playful mind. I love to learn new things and keep exploring different technologies and challenge their possibilities in order to create and test amazing products. I graduated as a Software tester from EC education in 2017. I have a bachelor's degree in computer science from Thailand and have worked for four years as an IT supporter. I am passionate about innovation, media and technology and will continue to learn in order to develop in this field. Also, automation is something of great interest to me "
+    },
+    "Projects":{
+        "React": {
+            "descriptions":"string string string",
+            "Name":"ododododo"    ,
+            "linkTo":"wwww.hhoo"
+        }
+
+    } 
+}
+   ]

@@ -9,13 +9,16 @@ import Home  from './Home';
 import Projects from './Projects';
 import NoPage from './NoPage';
 //import loading from './loading';
-//import logo from './logo.svg';
+import logo from '../assets/images/logo.png';
 
 
 function App() {
   return (
          <Router>
            <div>
+             <div className="logo">
+             <img src={logo} className="App-img" alt="profile-img"/>   
+             </div>
            <Navbar />
            <ScrollToTop />
            </div>

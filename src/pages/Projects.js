@@ -16,15 +16,19 @@ const Projects = () => {
     const [newGit, setNewGit] = useState("");
     const [newURL, setNewURL] = useState("");
     const [newImg, setNewImg] = useState("");
-
+    const [succes, setSucces ] = useState(false);
 
   const [useProjects, setProjects] = useState([]);
     const projectsCollectionRef = collection(db, "projects");
     
     //Creat new Project
     const createProject = async () => {
+      const addProduct = 
         await addDoc(projectsCollectionRef, 
             { name: newName, des: newDes, git: newGit, url: newURL, img: newImg });
+            console.log(" susses?...", addProduct );
+            setSucces(true);
+
       };
     //update
       const updateProject = async (id, des) => {
@@ -44,7 +48,7 @@ const Projects = () => {
             const data = await getDocs(projectsCollectionRef);
             setProjects(data.docs.map((doc) => ({...doc.data(), id: doc.id})));        };       
         getProjects();
-  }, []);
+  }, [succes]);
   
   return (     
              <div className="input">

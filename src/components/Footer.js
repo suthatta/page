@@ -3,8 +3,10 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>Footer
-      <div>Github</div>
-      <div>Linkedin</div>
+      <div className="socialmedia">
+      <h5>Linkedin</h5>
+      <h5>Github</h5>
+      </div>
     </div>
   )
 }
