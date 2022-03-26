@@ -7,8 +7,12 @@
   pointer-events: none;
 }
 .App-img {
-  size: 0.5rem;
+  height: 140px;
 
+}
+
+.navbar {
+font-weight: 2px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
